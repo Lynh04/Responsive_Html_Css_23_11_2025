@@ -1,99 +1,344 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Responsive Html Css 23_11_2025</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
 
-  <body>
-    <div class="container">
-      <nav>
-        <div class="nav-item">
-          <span class="logo" style="">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="white"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              data-lucide="rocket"
-              class="lucide lucide-rocket w-5 h-5 stroke-[3]"
-              style=""
-            >
-              <path
-                d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"
-              ></path>
-              <path
-                d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"
-              ></path>
-              <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"></path>
-              <path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"></path>
-            </svg>
-          </span>
-          <div>Nova</div>
-        </div>
-        <div class="nav-item-1">
-          <div>Overview</div>
-          <div>Features</div>
-          <div>Pricing</div>
-          <div>Blog</div>
-        </div>
-        <div class="nav-item-2">
-          <button>Sign Up</button>
-        </div>
-      </nav>
-      <div class="hero">
-        <div class="hero-content">
-          <div class="hero-title">Accelerate Your Growth. Unlock New Horizons.</div>
-          <div class="hero-desc">
-            Our platform empowers modern teams to build, launch and scale
-            products faster with data-backed insights and modular tooling.
-          </div>
-          <div class="hero-btn">
-            <button >Start Free Trial</button>
-            <button>Explore Docs</button>
-          </div>
-          <div class="hero-content-item">
-            <div class="hero-content-item-desc">
-              <div class="hero-content-item-desc-number"> 5M+ </div>
-              <div class="hero-content-item-desc-text"> monthly interactions</div>
-            </div>
-            <div class="divider"></div>
-            <div class="hero-content-item-desc">
-              <div class="hero-content-item-desc-number"> 98%</div>
-              <div class="hero-content-item-desc-text"> CSAT score</div>
-            </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Html Css 23_11_2025</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+    rel="stylesheet">
+</head>
 
-          </div>
-        </div>
-        <div class="hero-img">
-          <img
-            src="https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/dbbf1869-f6fb-45ad-af6f-bde5244ee6df_1600w.jpg"
-            alt="Team collaboration"
-            class="w-full h-full object-cover rounded-xl"
-          />
-        </div>
-
+<body>
+  <div class="container">
+    <nav>
+      <div class="nav-item">
+        <span class="logo" style="">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="rocket"
+            class="lucide lucide-rocket w-5 h-5 stroke-[3]" style="">
+            <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"></path>
+            <path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z">
+            </path>
+            <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"></path>
+            <path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"></path>
+          </svg>
+        </span>
+        <div>Nova</div>
       </div>
-      <div class="features">
-        <div class="features-title">Features Designed for Your Success</div>
-        <div class="features-desc">Discover how our platform can empower your team with tools built to accelerate product growth
-          and optimize
-          workflows.</div>
-        <div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
+      <div class="nav-item-1">
+        <div class="nav-item-1-item">Overview</div>
+        <div>Features</div>
+        <div>Pricing</div>
+        <div>Blog</div>
+      </div>
+      <div class="nav-item-2">
+        <button>Sign Up</button>
+      </div>
+    </nav>
+    <div class="hero">
+      <div class="hero-content">
+        <div class="hero-title">Accelerate Your Growth. Unlock New Horizons.</div>
+        <div class="hero-desc">
+          Our platform empowers modern teams to build, launch and scale
+          products faster with data-backed insights and modular tooling.
+        </div>
+        <div class="hero-btn">
+          <button>Start Free Trial</button>
+          <button>Explore Docs</button>
+        </div>
+        <div class="hero-content-item">
+          <div class="hero-content-item-desc">
+            <div class="hero-content-item-desc-number"> 5M+ </div>
+            <div class="hero-content-item-desc-text"> monthly interactions</div>
+          </div>
+          <div class="divider"></div>
+          <div class="hero-content-item-desc">
+            <div class="hero-content-item-desc-number"> 98%</div>
+            <div class="hero-content-item-desc-text"> CSAT score</div>
+          </div>
+
         </div>
       </div>
-      
+      <div class="hero-img">
+        <img
+          src="https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/dbbf1869-f6fb-45ad-af6f-bde5244ee6df_1600w.jpg"
+          alt="Team collaboration" class="w-full h-full object-cover rounded-xl" />
+      </div>
+
     </div>
-  </body>
+    <div class="features">
+      <div class="section-title">Features Designed for Your Success</div>
+      <div class="section-desc">Discover how our platform can empower your team with tools built to accelerate <br>
+        product growth
+        and optimize
+        workflows.</div>
+      <div class="features-item">
+        <div class="features-item-content card-shawdown">
+          <div class="features-item-content-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+              data-lucide="bar-chart-2" class="lucide lucide-bar-chart-2 w-7 h-7 text-cyan-500">
+              <path d="M5 21v-6"></path>
+              <path d="M12 21V3"></path>
+              <path d="M19 21V9"></path>
+            </svg>
+          </div>
+          <div class="features-item-content-title"> Data-Driven Insights </div>
+          <div class="features-item-content-desc"> Analyze real-time metrics to make smarter decisions quickly and
+            confidently.</div>
+        </div>
+        <div class="features-item-content card-shawdown">
+          <div class="features-item-content-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+              data-lucide="layers" class="lucide lucide-layers w-7 h-7 text-cyan-500">
+              <path
+                d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z">
+              </path>
+              <path d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12"></path>
+              <path d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17"></path>
+            </svg>
+          </div>
+          <div class="features-item-content-title"> Modular<br>Tooling </div>
+          <div class="features-item-content-desc"> Customize your workflow with flexible components designed to scale
+            with you. </div>
+        </div>
+        <div class="features-item-content card-shawdown">
+          <div class="features-item-content-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+              data-lucide="users" class="lucide lucide-users w-7 h-7 text-cyan-500">
+              <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+              <path d="M16 3.128a4 4 0 0 1 0 7.744"></path>
+              <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+              <circle cx="9" cy="7" r="4"></circle>
+            </svg>
+          </div>
+          <div class="features-item-content-title"> Collaboration at Scale </div>
+          <div class="features-item-content-desc"> Empower teams with seamless communication and shared goals to drive
+            results. </div>
+        </div>
+        <div class="features-item-content card-shawdown">
+          <div class="features-item-content-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+              data-lucide="shield-check" class="lucide lucide-shield-check w-7 h-7 text-cyan-500">
+              <path
+                d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z">
+              </path>
+              <path d="m9 12 2 2 4-4"></path>
+            </svg>
+          </div>
+          <div class="features-item-content-title">Reliable Security </div>
+          <div class="features-item-content-desc"> Safeguard your data with enterprise-grade protection and compliance.
+          </div>
+        </div>
+
+      </div>
+      <div class="divider1"></div>
+      <div class="pricing">
+        <div class="section-title">Pricing Plans</div>
+        <div class="section-desc">Choose a plan that fits your team's needs and start growing today.</div>
+        <div class="pricing-item">
+          <div class="pricing-item-content card-shawdown">
+            <div class="pricing-item-content-title">Starter</div>
+            <div class="pricing-item-content-desc">Ideal for small teams to get started.</div>
+            <div class="pricing-item-content-price">
+              <div class="pricing-item-content-price-number">$19</div>
+              <div class="pricing-item-content-price-period">/month</div>
+            </div>
+            <div class="pricing-item-content-features">
+              <div class="pricing-item-content-features-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+                  data-lucide="check" class="lucide lucide-check w-5 h-5 text-cyan-500 flex-shrink-0">
+                  <path d="M20 6 9 17l-5-5"></path>
+                </svg>
+                <div class="pricing-item-content-features-item-desc">Customizable workflows</div>
+              </div>
+              <div class="pricing-item-content-features-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+                  data-lucide="check" class="lucide lucide-check w-5 h-5 text-cyan-500 flex-shrink-0">
+                  <path d="M20 6 9 17l-5-5"></path>
+                </svg>
+                <div class="pricing-item-content-features-item-desc">Basic analytics</div>
+              </div>
+              <div class="pricing-item-content-features-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+                  data-lucide="check" class="lucide lucide-check w-5 h-5 text-cyan-500 flex-shrink-0">
+                  <path d="M20 6 9 17l-5-5"></path>
+                </svg>
+                <div class="pricing-item-content-features-item-desc">Email support</div>
+              </div>
+            </div>
+            <button>Get Started</button>
+          </div>
+          <div class="pricing-item-content card-shawdown">
+            <div class="pricing-item-content-title">Pro</div>
+            <div class="pricing-item-content-desc">For growing teams that need more power.</div>
+            <div class="pricing-item-content-price">
+              <div class="pricing-item-content-price-number">$49</div>
+              <div class="pricing-item-content-price-period">/month</div>
+            </div>
+            <div class="pricing-item-content-features">
+              <div class="pricing-item-content-features-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+                  data-lucide="check" class="lucide lucide-check w-5 h-5 text-cyan-500 flex-shrink-0">
+                  <path d="M20 6 9 17l-5-5"></path>
+                </svg>
+                <div class="pricing-item-content-features-item-desc">Advanced analytics & reporting</div>
+              </div>
+              <div class="pricing-item-content-features-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+                  data-lucide="check" class="lucide lucide-check w-5 h-5 text-cyan-500 flex-shrink-0">
+                  <path d="M20 6 9 17l-5-5"></path>
+                </svg>
+                <div class="pricing-item-content-features-item-desc">Priority email & chat support</div>
+              </div>
+              <div class="pricing-item-content-features-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+                  data-lucide="check" class="lucide lucide-check w-5 h-5 text-cyan-500 flex-shrink-0">
+                  <path d="M20 6 9 17l-5-5"></path>
+                </svg>
+                <div class="pricing-item-content-features-item-desc">Unlimited projects & integrations</div>
+              </div>
+            </div>
+            <button>Get Started</button>
+          </div>
+          <div class="pricing-item-content card-shawdown">
+            <div class="pricing-item-content-title">Enterprise</div>
+            <div class="pricing-item-content-desc">Custom solutions for large organizations.</div>
+            <div class="pricing-item-content-price">
+              <div class="pricing-item-content-price-number">Contact Us</div>
+
+            </div>
+            <div class="pricing-item-content-features">
+              <div class="pricing-item-content-features-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+                  data-lucide="check" class="lucide lucide-check w-5 h-5 text-cyan-500 flex-shrink-0">
+                  <path d="M20 6 9 17l-5-5"></path>
+                </svg>
+                <div class="pricing-item-content-features-item-desc">Dedicated account manager</div>
+              </div>
+              <div class="pricing-item-content-features-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+                  data-lucide="check" class="lucide lucide-check w-5 h-5 text-cyan-500 flex-shrink-0">
+                  <path d="M20 6 9 17l-5-5"></path>
+                </svg>
+                <div class="pricing-item-content-features-item-desc">Advanced security & compliance</div>
+              </div>
+              <div class="pricing-item-content-features-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+                  data-lucide="check" class="lucide lucide-check w-5 h-5 text-cyan-500 flex-shrink-0">
+                  <path d="M20 6 9 17l-5-5"></path>
+                </svg>
+                <div class="pricing-item-content-features-item-desc">Custom integrations & support</div>
+              </div>
+            </div>
+            <button>Contact Sales</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-title">Frequently Asked Questions</div>
+        <div class="section-desc">Answers to common questions to help you get the most out of our platform.</div>
+        <div class="section-faq-item">
+          <div class="section-faq-item-content">
+            <div class="section-faq-item-title">What is the refund policy?</div>
+            <div class="section-faq-item-desc">We offer a 30-day money-back guarantee on all plans. If you’re not
+              satisfied, contact our support team for a full refund.</div>
+          </div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+            data-lucide="chevron-down"
+            class="lucide lucide-chevron-down w-5 h-5 text-cyan-500 transition-transform duration-300 group-open:rotate-180">
+            <path d="m6 9 6 6 6-6"></path>
+          </svg>
+        </div>
+        <div class="section-faq-item">
+          <div class="section-faq-item-content">
+            <div class="section-faq-item-title">Can I upgrade or downgrade my plan later?</div>
+            <div class="section-faq-item-desc">Yes, you can change your subscription at any time from your account
+              settings without any interruption to your service.</div>
+          </div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+            data-lucide="chevron-down"
+            class="lucide lucide-chevron-down w-5 h-5 text-cyan-500 transition-transform duration-300 group-open:rotate-180">
+            <path d="m6 9 6 6 6-6"></path>
+          </svg>
+        </div>
+        <div class="section-faq-item">
+          <div class="section-faq-item-content">
+            <div class="section-faq-item-title">Do you offer custom integrations?</div>
+            <div class="section-faq-item-desc">Custom integrations are available on our Enterprise plan. Contact our
+              sales team to discuss your specific requirements.</div>
+          </div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+            data-lucide="chevron-down"
+            class="lucide lucide-chevron-down w-5 h-5 text-cyan-500 transition-transform duration-300 group-open:rotate-180">
+            <path d="m6 9 6 6 6-6"></path>
+          </svg>
+        </div>
+        <div class="section-faq-item">
+          <div class="section-faq-item-content">
+            <div class="section-faq-item-title">Is my data secure on your platform?</div>
+            <div class="section-faq-item-desc">We use enterprise-grade encryption, regular security audits, and
+              compliance standards
+              to protect your data at all times.</div>
+          </div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+            data-lucide="chevron-down"
+            class="lucide lucide-chevron-down w-5 h-5 text-cyan-500 transition-transform duration-300 group-open:rotate-180">
+            <path d="m6 9 6 6 6-6"></path>
+          </svg>
+        </div>
+        <div class="section-faq-item">
+          <div>
+            <div class="section-faq-item-title">How do I get support if I have an issue?</div>
+            <div class="section-faq-item-desc">Support varies by plan: Starter includes email support, Pro adds priority
+              email & chat, and Enterprise offers adedicated account manager.</div>
+          </div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+            data-lucide="chevron-down"
+            class="lucide lucide-chevron-down w-5 h-5 text-cyan-500 transition-transform duration-300 group-open:rotate-180">
+            <path d="m6 9 6 6 6-6"></path>
+          </svg>
+        </div>
+      </div>
+
+      <div class="section-hero">
+        <div class="section-hero-content">
+          <div class="section-hero-title">Ready to Elevate Your Product Growth?</div>
+          <div class="section-hero-desc">Join thousands of teams who trust Nova to accelerate their workflows and deliver
+            outstanding results. Start your
+            free trial today and unlock your team's potential.</div>
+          <div class="section-hero-btn">
+            <button>Start Free Trial</button>
+            <button>Contact Sales</button>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+
 </html>
