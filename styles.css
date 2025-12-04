@@ -267,14 +267,15 @@ nav {
   border-radius: 16px;
 }
 
-.card-shawdown {
-  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+.card-shawdown:hover {
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 }
 .pricing-item .pricing-item-content:nth-child(3) button {
   background: white;
   color: #06b6d4;
   border: 1px solid #06b6d4;
 }
+
 .section {
   margin-top: 80px;
   padding: 0 32px;
@@ -302,6 +303,7 @@ nav {
 }
 .section-faq-item svg {
   color: #06b6d4;
+  min-width: 18px;
 }
 .section-hero {
   margin-top: 80px;
@@ -385,6 +387,9 @@ button {
   .hero-btn {
     margin-top: 24px;
   }
+  .hero-btn button:first-child:hover {
+    background-color: rgb(8 145 178 / var(--tw-bg-opacity, 1));
+  }
 
   .hero-content-item {
     margin-top: 48px;
@@ -448,10 +453,17 @@ button {
   body {
     padding-top: 48px;
     padding-bottom: 48px;
+    margin: 0;
+  }
+  .section-hero-btn {
+    display: grid;
+  }
+
+  .section-hero-desc {
+    margin: 0;
   }
 
   .container {
-    width: 100%;
     max-width: 100%;
     padding: 24px 20px;
     margin: 0 auto;
@@ -517,7 +529,6 @@ button {
   }
 
   .features-item-content {
-    width: 100%;
     padding: 20px;
   }
 
@@ -534,7 +545,6 @@ button {
   }
 
   .pricing-item-content {
-    width: 100%;
     padding: 24px;
   }
 
@@ -543,7 +553,6 @@ button {
   }
 
   .section-faq-item {
-    flex-direction: column;
     gap: 12px;
   }
 }
